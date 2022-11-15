@@ -541,7 +541,7 @@ input[type="submit"]{
 
 
 
-.num{width: 100%; background-color: #f5f5f5;}
+.num{width: 100%; background-color: #f5f5f5; text-align: center;}
 .num-wrap{max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; margin-bottom: 150px;}
 .num-wrap > div{width: 25%; padding: 80px 60px; position: relative;}
 .num-wrap > div .num-text-wrap::after{
@@ -555,9 +555,9 @@ input[type="submit"]{
     transform: translateY(-50%);
 }
 
-.num h4{color: #555; font-size: 19px; margin-bottom: 10px; font-weight: 500; letter-spacing: -0.5pt;}
-.num span{color: #08a0b7; font-size: 62px; margin-bottom: 15px;}
-.num h1{color: #333; font-size: 62px; margin-bottom: 15px;}
+.num h4{color: #555; font-size: 19px; margin-bottom: 15px; font-weight: 500; letter-spacing: -0.5pt;}
+.num span{color: #08a0b7; font-size: 62px;}
+.num h1{color: #333; font-size: 62px; margin-bottom: 20px;}
 .num p{color: #888; font-size: 16px; transform: rotate(0.04deg); letter-spacing: -0.5pt;}
 
 
@@ -696,7 +696,7 @@ input[type="submit"]{
 }
 .footer .footer-wrap .ft-top .ft-left .time-wrap h3{
     color: #fff;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -786,7 +786,8 @@ input[type="submit"]{
     display: block;
     font-weight: 300;
     transform: rotate(0.04deg);
-
+    line-height: 22px;
+    margin-top: 2px;
 }
 
 
@@ -860,7 +861,7 @@ input[type="submit"]{
 
 .footer .footer-wrap .ft-top .ft-right .l h1{
     color: #fff;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 500;
 }
 .footer .footer-wrap .ft-top .ft-right .r span{
